@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SubscriptionSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SubscriptionId></SubscriptionId>
+  <Path>/SampleReport/Report1</Path>
+  <ReportName>Report1</ReportName>
+  <ExtensionName>Report Server FileShare</ExtensionName>
+  <ExtensionParameters>
+    <Parameter>
+      <Name>PATH</Name>
+      <Value>\\SERVER\Temp</Value>
+    </Parameter>
+    <Parameter>
+      <Name>FILENAME</Name>
+      <Value>FileName</Value>
+    </Parameter>
+    <Parameter>
+      <Name>FILEEXTN</Name>
+      <Value>True</Value>
+    </Parameter>
+    <Parameter>
+      <Name>USERNAME</Name>
+      <Value>user</Value>
+    </Parameter>
+    <Parameter>
+      <Name>PASSWORD</Name>
+      <Value>password</Value>
+    </Parameter>
+    <Parameter>
+      <Name>RENDER_FORMAT</Name>
+      <Value>CSV</Value>
+    </Parameter>
+    <Parameter>
+      <Name>WRITEMODE</Name>
+      <Value>Overwrite</Value>
+    </Parameter>
+    <Parameter>
+      <Name>DEFAULTCREDENTIALS</Name>
+      <Value>False</Value>
+    </Parameter>
+  </ExtensionParameters>
+  <Description>Description</Description>
+  <EventType>TimedSubscription</EventType>
+  <ScheduleDefinition>
+    <StartDateTime>2017-01-01T00:00:00.000</StartDateTime>
+    <DailyRecurrence>
+      <DaysInterval>1</DaysInterval>
+    </DailyRecurrence>
+  </ScheduleDefinition>
+  <Parameters />
+</SubscriptionSettings>
